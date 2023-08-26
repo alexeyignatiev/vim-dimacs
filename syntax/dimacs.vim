@@ -9,7 +9,7 @@ endif
 
 " Keywords
 syn keyword statement p m e
-syn keyword filetype  cnf wcnf dnf edge
+syn keyword filetype  cnf cnf+ wcnf wcnf+ dnf edge
 syn keyword const     0
 syn match comments    "c.*$"
 
